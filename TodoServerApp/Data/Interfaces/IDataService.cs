@@ -2,6 +2,6 @@
 {
     public interface IDataService
     {
-        IEnumerable<TaskItem> GetTaskItem();
+        Task<IEnumerable<TaskItem>> GetTaskItemAsync();
     }
 }
